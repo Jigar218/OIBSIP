@@ -21,7 +21,6 @@ def generate_password(length, use_letters=True, use_numbers=True, use_symbols=Tr
 def psw_len_strong(password):
     
     return len(password) >= 5  
-
 def main():
     try:
         length = int(input("Enter password length: "))
